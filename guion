@@ -1,0 +1,18 @@
+Trabajo DPEC:
+
+- Applying Loop Tiling and Unrolling to a Sparse Kernel code - E. Herruzo
+
+Documentación y presentación: LaTeX
+
+Implementación: C++ y Qt
+
+1- Descargar benchmarks y encontrar algunas matrices dispersas que sirvan
+2- Estudio de la arquitectura de la CPU.
+3- Implementar algoritmos para tiling y unrolling.
+4- Interfaz para pruebas:
+	4.1 - Cuadro de dialogo para introducir densidad.
+	4.2 - Cuadro de dialogo para introducir tamaño de matriz.
+	4.3 - Cuadro de dialogo para tipo de dato.
+	4.4 - Cuadro de dialogo para seleccionar optimización (parámetros).
+	4.4 - Cuadro de resultados con: tiempo y accesos a memoria.
+5- Pruebas de rendimiento.
